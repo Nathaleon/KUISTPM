@@ -33,13 +33,17 @@ class _KubusPageState extends State<KubusPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("K U B U S"),
+        title: Text("KUBUS"),
       ),
       body: Padding(
         padding: EdgeInsets.all(16),
         child: Column(
           children: [
-            Center(child: Image.asset('assets/images/kubus.png', scale: 5,)),
+            Center(
+                child: Image.asset(
+              'assets/images/kubus.png',
+              scale: 5,
+            )),
             TextField(
               controller: sisiController,
               decoration: InputDecoration(

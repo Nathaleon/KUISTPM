@@ -42,7 +42,7 @@ class _TrapesiumPageState extends State<TrapesiumPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("T R A P E S I U M"),
+        title: Text("TRAPESIUM"),
       ),
       body: Padding(
         padding: EdgeInsets.all(16),
